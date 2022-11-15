@@ -1,0 +1,157 @@
+/*==========  Desktop First  ========== */
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /* Всё выполняется для диапазоны 992-1200  */
+  #main .inner > .description {
+	  max-width: 80%
+  }
+
+  #about_us
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  #main .inner > h1{
+	  font-size: 50px;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  header {
+	  padding: 0 15px;
+    position: relative;
+
+  }
+  
+  header .container {
+
+  }
+
+  header .logo {
+  max-width: 70px;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+  .menu_top {
+	  display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 80px;
+    z-index: 100;
+    background-color: #fff;
+    box-shadow: 0 3px rgba(0, 0, 0, .16);
+  }
+
+  .menu_top li {
+    display: block;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .hamburger {
+	  display: block;
+  }
+
+  #main {
+    padding: 50px 0;
+  }
+
+  #main .inner > h1 {
+    font-size: 36px;
+  }
+
+  #main .inner > .description {
+    width: 100%;
+  }
+
+  #services, footer {
+    padding: 30px 0;
+  }
+
+  #services .inner_services h1{
+    font-size: 26px;
+  }
+
+  #services .inner_services p{
+    font-size: 14px;
+  }
+
+  #about_us {
+    padding-top: 20px;
+  }
+
+  #about_us .inner_about .about_company {
+  display: block;
+  width: 80%;
+}
+
+#about_us .inner_about .about_company h1 {
+  font-size: 26px;
+}
+
+#about_us .inner_about .about_company p {
+  font-size: 13px;
+}
+
+  #about_us .inner_about .about_text {
+  display: block;
+  width: 80%;
+  padding: 0;
+}
+
+#about_us .inner_about .about_text h1 {
+  font-size: 24px;
+   line-height: 100%;
+   padding-top: 20px;
+}
+
+#about_us .inner_about .about_text ul {
+  font-size: 13px;
+}
+
+#services {
+  padding: 20px 0 0 0;
+}
+
+  footer ul a {
+    font-size: 14px;
+  }
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+
+  #main .inner > h1 {
+    font-size: 30px;
+  }
+
+  #main .inner > .description {
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+
+  #services .inner_services h1{
+    font-size: 20px;
+  }
+
+  #services .inner_services p{
+    font-size: 12px;
+  }
+
+  footer ul {
+    column-count: 2;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /* */
+}
